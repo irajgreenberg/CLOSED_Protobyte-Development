@@ -14,6 +14,38 @@
 		2A6B2B8715DD4EC7007E71BA /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A6B2B8615DD4EC7007E71BA /* cute_image.jpg */; };
 		2A6B2B8915DD4EC7007E71BA /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 2A6B2B8815DD4EC7007E71BA /* nice_music.ogg */; };
 		2A6B2B8E15DD4EC7007E71BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A6B2B8C15DD4EC7007E71BA /* InfoPlist.strings */; };
+		2AD3C10815DD543D00E92E45 /* Curve3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C0C215DD543D00E92E45 /* Curve3d.cpp */; };
+		2AD3C10915DD543D00E92E45 /* Cylinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C0C315DD543D00E92E45 /* Cylinder.cpp */; };
+		2AD3C10A15DD543D00E92E45 /* ExtrudeObj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C0C415DD543D00E92E45 /* ExtrudeObj.cpp */; };
+		2AD3C10B15DD543D00E92E45 /* Geom3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C0C515DD543D00E92E45 /* Geom3d.cpp */; };
+		2AD3C10C15DD543D00E92E45 /* Point2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C0C615DD543D00E92E45 /* Point2d.cpp */; };
+		2AD3C10D15DD543D00E92E45 /* Point3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C0C715DD543D00E92E45 /* Point3d.cpp */; };
+		2AD3C10E15DD543D00E92E45 /* Rect2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C0C815DD543D00E92E45 /* Rect2d.cpp */; };
+		2AD3C10F15DD543D00E92E45 /* Shape2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C0C915DD543D00E92E45 /* Shape2d.cpp */; };
+		2AD3C11015DD543D00E92E45 /* Spline3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C0CA15DD543D00E92E45 /* Spline3d.cpp */; };
+		2AD3C11115DD543D00E92E45 /* Surface2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C0CB15DD543D00E92E45 /* Surface2d.cpp */; };
+		2AD3C11215DD543D00E92E45 /* Toroid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C0CC15DD543D00E92E45 /* Toroid.cpp */; };
+		2AD3C11315DD543D00E92E45 /* TriFace3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C0CD15DD543D00E92E45 /* TriFace3d.cpp */; };
+		2AD3C11415DD543D00E92E45 /* ImageIO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C0D515DD543D00E92E45 /* ImageIO.cpp */; };
+		2AD3C11515DD543D00E92E45 /* Matrix4d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C0DC15DD543D00E92E45 /* Matrix4d.cpp */; };
+		2AD3C11615DD543D00E92E45 /* Vector3df.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C0DD15DD543D00E92E45 /* Vector3df.cpp */; };
+		2AD3C11715DD543D00E92E45 /* Vector4df.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C0DE15DD543D00E92E45 /* Vector4df.cpp */; };
+		2AD3C11815DD543D00E92E45 /* ProtoOSC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C0E515DD543D00E92E45 /* ProtoOSC.cpp */; };
+		2AD3C11915DD543D00E92E45 /* ProtoOSCClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C0E615DD543D00E92E45 /* ProtoOSCClient.cpp */; };
+		2AD3C11A15DD543D00E92E45 /* ProtoOSCServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C0E715DD543D00E92E45 /* ProtoOSCServer.cpp */; };
+		2AD3C11B15DD543D00E92E45 /* Emitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C0F115DD543D00E92E45 /* Emitter.cpp */; };
+		2AD3C11C15DD543D00E92E45 /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C0F215DD543D00E92E45 /* Particle.cpp */; };
+		2AD3C11D15DD543D00E92E45 /* VerletBall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C0F315DD543D00E92E45 /* VerletBall.cpp */; };
+		2AD3C11E15DD543D00E92E45 /* VerletChain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C0F415DD543D00E92E45 /* VerletChain.cpp */; };
+		2AD3C11F15DD543D00E92E45 /* VerletStick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C0F515DD543D00E92E45 /* VerletStick.cpp */; };
+		2AD3C12015DD543D00E92E45 /* VerletSurface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C0F615DD543D00E92E45 /* VerletSurface.cpp */; };
+		2AD3C12115DD543D00E92E45 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C0F815DD543D00E92E45 /* main.cpp */; };
+		2AD3C12215DD543D00E92E45 /* ProtoCreator.1 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD3C0F915DD543D00E92E45 /* ProtoCreator.1 */; };
+		2AD3C12315DD543D00E92E45 /* Dimension3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C10315DD543D00E92E45 /* Dimension3d.cpp */; };
+		2AD3C12415DD543D00E92E45 /* ProtoUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C10415DD543D00E92E45 /* ProtoUtils.cpp */; };
+		2AD3C12515DD543D00E92E45 /* Tuple2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C10515DD543D00E92E45 /* Tuple2d.cpp */; };
+		2AD3C12615DD543D00E92E45 /* Tuple2df.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C10615DD543D00E92E45 /* Tuple2df.cpp */; };
+		2AD3C12715DD543D00E92E45 /* Tuple3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C10715DD543D00E92E45 /* Tuple3d.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +59,69 @@
 		2A6B2B8815DD4EC7007E71BA /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
 		2A6B2B8B15DD4EC7007E71BA /* Protobyte001-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Protobyte001-Info.plist"; sourceTree = "<group>"; };
 		2A6B2B8D15DD4EC7007E71BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2AD3C0B515DD543D00E92E45 /* Curve3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Curve3d.h; sourceTree = "<group>"; };
+		2AD3C0B615DD543D00E92E45 /* Cylinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cylinder.h; sourceTree = "<group>"; };
+		2AD3C0B715DD543D00E92E45 /* ExtrudeObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtrudeObj.h; sourceTree = "<group>"; };
+		2AD3C0B815DD543D00E92E45 /* Geom3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Geom3d.h; sourceTree = "<group>"; };
+		2AD3C0B915DD543D00E92E45 /* Point2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Point2d.h; sourceTree = "<group>"; };
+		2AD3C0BA15DD543D00E92E45 /* Point3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Point3d.h; sourceTree = "<group>"; };
+		2AD3C0BB15DD543D00E92E45 /* Rect2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rect2d.h; sourceTree = "<group>"; };
+		2AD3C0BC15DD543D00E92E45 /* Shape2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shape2d.h; sourceTree = "<group>"; };
+		2AD3C0BD15DD543D00E92E45 /* Spline3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spline3d.h; sourceTree = "<group>"; };
+		2AD3C0BE15DD543D00E92E45 /* Surface2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Surface2d.h; sourceTree = "<group>"; };
+		2AD3C0BF15DD543D00E92E45 /* Toroid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Toroid.h; sourceTree = "<group>"; };
+		2AD3C0C015DD543D00E92E45 /* TriFace3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriFace3d.h; sourceTree = "<group>"; };
+		2AD3C0C215DD543D00E92E45 /* Curve3d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Curve3d.cpp; sourceTree = "<group>"; };
+		2AD3C0C315DD543D00E92E45 /* Cylinder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cylinder.cpp; sourceTree = "<group>"; };
+		2AD3C0C415DD543D00E92E45 /* ExtrudeObj.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExtrudeObj.cpp; sourceTree = "<group>"; };
+		2AD3C0C515DD543D00E92E45 /* Geom3d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Geom3d.cpp; sourceTree = "<group>"; };
+		2AD3C0C615DD543D00E92E45 /* Point2d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Point2d.cpp; sourceTree = "<group>"; };
+		2AD3C0C715DD543D00E92E45 /* Point3d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Point3d.cpp; sourceTree = "<group>"; };
+		2AD3C0C815DD543D00E92E45 /* Rect2d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rect2d.cpp; sourceTree = "<group>"; };
+		2AD3C0C915DD543D00E92E45 /* Shape2d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shape2d.cpp; sourceTree = "<group>"; };
+		2AD3C0CA15DD543D00E92E45 /* Spline3d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Spline3d.cpp; sourceTree = "<group>"; };
+		2AD3C0CB15DD543D00E92E45 /* Surface2d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Surface2d.cpp; sourceTree = "<group>"; };
+		2AD3C0CC15DD543D00E92E45 /* Toroid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Toroid.cpp; sourceTree = "<group>"; };
+		2AD3C0CD15DD543D00E92E45 /* TriFace3d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TriFace3d.cpp; sourceTree = "<group>"; };
+		2AD3C0D315DD543D00E92E45 /* ImageIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageIO.h; sourceTree = "<group>"; };
+		2AD3C0D515DD543D00E92E45 /* ImageIO.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImageIO.cpp; sourceTree = "<group>"; };
+		2AD3C0D815DD543D00E92E45 /* Matrix4d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix4d.h; sourceTree = "<group>"; };
+		2AD3C0D915DD543D00E92E45 /* Vector3df.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector3df.h; sourceTree = "<group>"; };
+		2AD3C0DA15DD543D00E92E45 /* Vector4df.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector4df.h; sourceTree = "<group>"; };
+		2AD3C0DC15DD543D00E92E45 /* Matrix4d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix4d.cpp; sourceTree = "<group>"; };
+		2AD3C0DD15DD543D00E92E45 /* Vector3df.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector3df.cpp; sourceTree = "<group>"; };
+		2AD3C0DE15DD543D00E92E45 /* Vector4df.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector4df.cpp; sourceTree = "<group>"; };
+		2AD3C0E115DD543D00E92E45 /* ProtoOSC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtoOSC.h; sourceTree = "<group>"; };
+		2AD3C0E215DD543D00E92E45 /* ProtoOSCClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtoOSCClient.h; sourceTree = "<group>"; };
+		2AD3C0E315DD543D00E92E45 /* ProtoOSCServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtoOSCServer.h; sourceTree = "<group>"; };
+		2AD3C0E515DD543D00E92E45 /* ProtoOSC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ProtoOSC.cpp; sourceTree = "<group>"; };
+		2AD3C0E615DD543D00E92E45 /* ProtoOSCClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ProtoOSCClient.cpp; sourceTree = "<group>"; };
+		2AD3C0E715DD543D00E92E45 /* ProtoOSCServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ProtoOSCServer.cpp; sourceTree = "<group>"; };
+		2AD3C0EA15DD543D00E92E45 /* Emitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Emitter.h; sourceTree = "<group>"; };
+		2AD3C0EB15DD543D00E92E45 /* Particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Particle.h; sourceTree = "<group>"; };
+		2AD3C0EC15DD543D00E92E45 /* VerletBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerletBall.h; sourceTree = "<group>"; };
+		2AD3C0ED15DD543D00E92E45 /* VerletChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerletChain.h; sourceTree = "<group>"; };
+		2AD3C0EE15DD543D00E92E45 /* VerletStick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerletStick.h; sourceTree = "<group>"; };
+		2AD3C0EF15DD543D00E92E45 /* VerletSurface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerletSurface.h; sourceTree = "<group>"; };
+		2AD3C0F115DD543D00E92E45 /* Emitter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Emitter.cpp; sourceTree = "<group>"; };
+		2AD3C0F215DD543D00E92E45 /* Particle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Particle.cpp; sourceTree = "<group>"; };
+		2AD3C0F315DD543D00E92E45 /* VerletBall.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VerletBall.cpp; sourceTree = "<group>"; };
+		2AD3C0F415DD543D00E92E45 /* VerletChain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VerletChain.cpp; sourceTree = "<group>"; };
+		2AD3C0F515DD543D00E92E45 /* VerletStick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VerletStick.cpp; sourceTree = "<group>"; };
+		2AD3C0F615DD543D00E92E45 /* VerletSurface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VerletSurface.cpp; sourceTree = "<group>"; };
+		2AD3C0F815DD543D00E92E45 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2AD3C0F915DD543D00E92E45 /* ProtoCreator.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = ProtoCreator.1; sourceTree = "<group>"; };
+		2AD3C0FC15DD543D00E92E45 /* Dimension3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dimension3d.h; sourceTree = "<group>"; };
+		2AD3C0FD15DD543D00E92E45 /* ProtoSetup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtoSetup.h; sourceTree = "<group>"; };
+		2AD3C0FE15DD543D00E92E45 /* ProtoUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtoUtils.h; sourceTree = "<group>"; };
+		2AD3C0FF15DD543D00E92E45 /* Tuple2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tuple2d.h; sourceTree = "<group>"; };
+		2AD3C10015DD543D00E92E45 /* Tuple2df.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tuple2df.h; sourceTree = "<group>"; };
+		2AD3C10115DD543D00E92E45 /* Tuple3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tuple3d.h; sourceTree = "<group>"; };
+		2AD3C10315DD543D00E92E45 /* Dimension3d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dimension3d.cpp; sourceTree = "<group>"; };
+		2AD3C10415DD543D00E92E45 /* ProtoUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ProtoUtils.cpp; sourceTree = "<group>"; };
+		2AD3C10515DD543D00E92E45 /* Tuple2d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tuple2d.cpp; sourceTree = "<group>"; };
+		2AD3C10615DD543D00E92E45 /* Tuple2df.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tuple2df.cpp; sourceTree = "<group>"; };
+		2AD3C10715DD543D00E92E45 /* Tuple3d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tuple3d.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +164,14 @@
 		2A6B2B7D15DD4EC7007E71BA /* Protobyte001 */ = {
 			isa = PBXGroup;
 			children = (
+				2AD3C0B315DD543D00E92E45 /* geom */,
+				2AD3C0CE15DD543D00E92E45 /* image */,
+				2AD3C0D115DD543D00E92E45 /* io */,
+				2AD3C0D615DD543D00E92E45 /* math */,
+				2AD3C0DF15DD543D00E92E45 /* net */,
+				2AD3C0E815DD543D00E92E45 /* physics */,
+				2AD3C0F715DD543D00E92E45 /* ProtoCreator */,
+				2AD3C0FA15DD543D00E92E45 /* utils */,
 				2A6B2B7E15DD4EC7007E71BA /* main.cpp */,
 				2A6B2B8015DD4EC7007E71BA /* ResourcePath.mm */,
 				2A6B2B8215DD4EC7007E71BA /* ResourcePath.hpp */,
@@ -95,6 +198,237 @@
 				2A6B2B8C15DD4EC7007E71BA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2AD3C0B315DD543D00E92E45 /* geom */ = {
+			isa = PBXGroup;
+			children = (
+				2AD3C0B415DD543D00E92E45 /* headers */,
+				2AD3C0C115DD543D00E92E45 /* src */,
+			);
+			path = geom;
+			sourceTree = "<group>";
+		};
+		2AD3C0B415DD543D00E92E45 /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				2AD3C0B515DD543D00E92E45 /* Curve3d.h */,
+				2AD3C0B615DD543D00E92E45 /* Cylinder.h */,
+				2AD3C0B715DD543D00E92E45 /* ExtrudeObj.h */,
+				2AD3C0B815DD543D00E92E45 /* Geom3d.h */,
+				2AD3C0B915DD543D00E92E45 /* Point2d.h */,
+				2AD3C0BA15DD543D00E92E45 /* Point3d.h */,
+				2AD3C0BB15DD543D00E92E45 /* Rect2d.h */,
+				2AD3C0BC15DD543D00E92E45 /* Shape2d.h */,
+				2AD3C0BD15DD543D00E92E45 /* Spline3d.h */,
+				2AD3C0BE15DD543D00E92E45 /* Surface2d.h */,
+				2AD3C0BF15DD543D00E92E45 /* Toroid.h */,
+				2AD3C0C015DD543D00E92E45 /* TriFace3d.h */,
+			);
+			path = headers;
+			sourceTree = "<group>";
+		};
+		2AD3C0C115DD543D00E92E45 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				2AD3C0C215DD543D00E92E45 /* Curve3d.cpp */,
+				2AD3C0C315DD543D00E92E45 /* Cylinder.cpp */,
+				2AD3C0C415DD543D00E92E45 /* ExtrudeObj.cpp */,
+				2AD3C0C515DD543D00E92E45 /* Geom3d.cpp */,
+				2AD3C0C615DD543D00E92E45 /* Point2d.cpp */,
+				2AD3C0C715DD543D00E92E45 /* Point3d.cpp */,
+				2AD3C0C815DD543D00E92E45 /* Rect2d.cpp */,
+				2AD3C0C915DD543D00E92E45 /* Shape2d.cpp */,
+				2AD3C0CA15DD543D00E92E45 /* Spline3d.cpp */,
+				2AD3C0CB15DD543D00E92E45 /* Surface2d.cpp */,
+				2AD3C0CC15DD543D00E92E45 /* Toroid.cpp */,
+				2AD3C0CD15DD543D00E92E45 /* TriFace3d.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		2AD3C0CE15DD543D00E92E45 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				2AD3C0CF15DD543D00E92E45 /* headers */,
+				2AD3C0D015DD543D00E92E45 /* src */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		2AD3C0CF15DD543D00E92E45 /* headers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = headers;
+			sourceTree = "<group>";
+		};
+		2AD3C0D015DD543D00E92E45 /* src */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		2AD3C0D115DD543D00E92E45 /* io */ = {
+			isa = PBXGroup;
+			children = (
+				2AD3C0D215DD543D00E92E45 /* headers */,
+				2AD3C0D415DD543D00E92E45 /* src */,
+			);
+			path = io;
+			sourceTree = "<group>";
+		};
+		2AD3C0D215DD543D00E92E45 /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				2AD3C0D315DD543D00E92E45 /* ImageIO.h */,
+			);
+			path = headers;
+			sourceTree = "<group>";
+		};
+		2AD3C0D415DD543D00E92E45 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				2AD3C0D515DD543D00E92E45 /* ImageIO.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		2AD3C0D615DD543D00E92E45 /* math */ = {
+			isa = PBXGroup;
+			children = (
+				2AD3C0D715DD543D00E92E45 /* headers */,
+				2AD3C0DB15DD543D00E92E45 /* src */,
+			);
+			path = math;
+			sourceTree = "<group>";
+		};
+		2AD3C0D715DD543D00E92E45 /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				2AD3C0D815DD543D00E92E45 /* Matrix4d.h */,
+				2AD3C0D915DD543D00E92E45 /* Vector3df.h */,
+				2AD3C0DA15DD543D00E92E45 /* Vector4df.h */,
+			);
+			path = headers;
+			sourceTree = "<group>";
+		};
+		2AD3C0DB15DD543D00E92E45 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				2AD3C0DC15DD543D00E92E45 /* Matrix4d.cpp */,
+				2AD3C0DD15DD543D00E92E45 /* Vector3df.cpp */,
+				2AD3C0DE15DD543D00E92E45 /* Vector4df.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		2AD3C0DF15DD543D00E92E45 /* net */ = {
+			isa = PBXGroup;
+			children = (
+				2AD3C0E015DD543D00E92E45 /* headers */,
+				2AD3C0E415DD543D00E92E45 /* src */,
+			);
+			path = net;
+			sourceTree = "<group>";
+		};
+		2AD3C0E015DD543D00E92E45 /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				2AD3C0E115DD543D00E92E45 /* ProtoOSC.h */,
+				2AD3C0E215DD543D00E92E45 /* ProtoOSCClient.h */,
+				2AD3C0E315DD543D00E92E45 /* ProtoOSCServer.h */,
+			);
+			path = headers;
+			sourceTree = "<group>";
+		};
+		2AD3C0E415DD543D00E92E45 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				2AD3C0E515DD543D00E92E45 /* ProtoOSC.cpp */,
+				2AD3C0E615DD543D00E92E45 /* ProtoOSCClient.cpp */,
+				2AD3C0E715DD543D00E92E45 /* ProtoOSCServer.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		2AD3C0E815DD543D00E92E45 /* physics */ = {
+			isa = PBXGroup;
+			children = (
+				2AD3C0E915DD543D00E92E45 /* headers */,
+				2AD3C0F015DD543D00E92E45 /* src */,
+			);
+			path = physics;
+			sourceTree = "<group>";
+		};
+		2AD3C0E915DD543D00E92E45 /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				2AD3C0EA15DD543D00E92E45 /* Emitter.h */,
+				2AD3C0EB15DD543D00E92E45 /* Particle.h */,
+				2AD3C0EC15DD543D00E92E45 /* VerletBall.h */,
+				2AD3C0ED15DD543D00E92E45 /* VerletChain.h */,
+				2AD3C0EE15DD543D00E92E45 /* VerletStick.h */,
+				2AD3C0EF15DD543D00E92E45 /* VerletSurface.h */,
+			);
+			path = headers;
+			sourceTree = "<group>";
+		};
+		2AD3C0F015DD543D00E92E45 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				2AD3C0F115DD543D00E92E45 /* Emitter.cpp */,
+				2AD3C0F215DD543D00E92E45 /* Particle.cpp */,
+				2AD3C0F315DD543D00E92E45 /* VerletBall.cpp */,
+				2AD3C0F415DD543D00E92E45 /* VerletChain.cpp */,
+				2AD3C0F515DD543D00E92E45 /* VerletStick.cpp */,
+				2AD3C0F615DD543D00E92E45 /* VerletSurface.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		2AD3C0F715DD543D00E92E45 /* ProtoCreator */ = {
+			isa = PBXGroup;
+			children = (
+				2AD3C0F815DD543D00E92E45 /* main.cpp */,
+				2AD3C0F915DD543D00E92E45 /* ProtoCreator.1 */,
+			);
+			path = ProtoCreator;
+			sourceTree = "<group>";
+		};
+		2AD3C0FA15DD543D00E92E45 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				2AD3C0FB15DD543D00E92E45 /* headers */,
+				2AD3C10215DD543D00E92E45 /* src */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		2AD3C0FB15DD543D00E92E45 /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				2AD3C0FC15DD543D00E92E45 /* Dimension3d.h */,
+				2AD3C0FD15DD543D00E92E45 /* ProtoSetup.h */,
+				2AD3C0FE15DD543D00E92E45 /* ProtoUtils.h */,
+				2AD3C0FF15DD543D00E92E45 /* Tuple2d.h */,
+				2AD3C10015DD543D00E92E45 /* Tuple2df.h */,
+				2AD3C10115DD543D00E92E45 /* Tuple3d.h */,
+			);
+			path = headers;
+			sourceTree = "<group>";
+		};
+		2AD3C10215DD543D00E92E45 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				2AD3C10315DD543D00E92E45 /* Dimension3d.cpp */,
+				2AD3C10415DD543D00E92E45 /* ProtoUtils.cpp */,
+				2AD3C10515DD543D00E92E45 /* Tuple2d.cpp */,
+				2AD3C10615DD543D00E92E45 /* Tuple2df.cpp */,
+				2AD3C10715DD543D00E92E45 /* Tuple3d.cpp */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +486,7 @@
 				2A6B2B8715DD4EC7007E71BA /* cute_image.jpg in Resources */,
 				2A6B2B8915DD4EC7007E71BA /* nice_music.ogg in Resources */,
 				2A6B2B8E15DD4EC7007E71BA /* InfoPlist.strings in Resources */,
+				2AD3C12215DD543D00E92E45 /* ProtoCreator.1 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +515,37 @@
 			files = (
 				2A6B2B7F15DD4EC7007E71BA /* main.cpp in Sources */,
 				2A6B2B8115DD4EC7007E71BA /* ResourcePath.mm in Sources */,
+				2AD3C10815DD543D00E92E45 /* Curve3d.cpp in Sources */,
+				2AD3C10915DD543D00E92E45 /* Cylinder.cpp in Sources */,
+				2AD3C10A15DD543D00E92E45 /* ExtrudeObj.cpp in Sources */,
+				2AD3C10B15DD543D00E92E45 /* Geom3d.cpp in Sources */,
+				2AD3C10C15DD543D00E92E45 /* Point2d.cpp in Sources */,
+				2AD3C10D15DD543D00E92E45 /* Point3d.cpp in Sources */,
+				2AD3C10E15DD543D00E92E45 /* Rect2d.cpp in Sources */,
+				2AD3C10F15DD543D00E92E45 /* Shape2d.cpp in Sources */,
+				2AD3C11015DD543D00E92E45 /* Spline3d.cpp in Sources */,
+				2AD3C11115DD543D00E92E45 /* Surface2d.cpp in Sources */,
+				2AD3C11215DD543D00E92E45 /* Toroid.cpp in Sources */,
+				2AD3C11315DD543D00E92E45 /* TriFace3d.cpp in Sources */,
+				2AD3C11415DD543D00E92E45 /* ImageIO.cpp in Sources */,
+				2AD3C11515DD543D00E92E45 /* Matrix4d.cpp in Sources */,
+				2AD3C11615DD543D00E92E45 /* Vector3df.cpp in Sources */,
+				2AD3C11715DD543D00E92E45 /* Vector4df.cpp in Sources */,
+				2AD3C11815DD543D00E92E45 /* ProtoOSC.cpp in Sources */,
+				2AD3C11915DD543D00E92E45 /* ProtoOSCClient.cpp in Sources */,
+				2AD3C11A15DD543D00E92E45 /* ProtoOSCServer.cpp in Sources */,
+				2AD3C11B15DD543D00E92E45 /* Emitter.cpp in Sources */,
+				2AD3C11C15DD543D00E92E45 /* Particle.cpp in Sources */,
+				2AD3C11D15DD543D00E92E45 /* VerletBall.cpp in Sources */,
+				2AD3C11E15DD543D00E92E45 /* VerletChain.cpp in Sources */,
+				2AD3C11F15DD543D00E92E45 /* VerletStick.cpp in Sources */,
+				2AD3C12015DD543D00E92E45 /* VerletSurface.cpp in Sources */,
+				2AD3C12115DD543D00E92E45 /* main.cpp in Sources */,
+				2AD3C12315DD543D00E92E45 /* Dimension3d.cpp in Sources */,
+				2AD3C12415DD543D00E92E45 /* ProtoUtils.cpp in Sources */,
+				2AD3C12515DD543D00E92E45 /* Tuple2d.cpp in Sources */,
+				2AD3C12615DD543D00E92E45 /* Tuple2df.cpp in Sources */,
+				2AD3C12715DD543D00E92E45 /* Tuple3d.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +698,7 @@
 				2A6B2B9315DD4EC7007E71BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
