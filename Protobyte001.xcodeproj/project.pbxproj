@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A6B2B7C15DD4EC7007E71BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A6B2B7B15DD4EC7007E71BA /* Foundation.framework */; };
+		2A6B2B7F15DD4EC7007E71BA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A6B2B7E15DD4EC7007E71BA /* main.cpp */; };
+		2A6B2B8115DD4EC7007E71BA /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2A6B2B8015DD4EC7007E71BA /* ResourcePath.mm */; };
+		2A6B2B8515DD4EC7007E71BA /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A6B2B8415DD4EC7007E71BA /* sansation.ttf */; };
+		2A6B2B8715DD4EC7007E71BA /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A6B2B8615DD4EC7007E71BA /* cute_image.jpg */; };
+		2A6B2B8915DD4EC7007E71BA /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 2A6B2B8815DD4EC7007E71BA /* nice_music.ogg */; };
+		2A6B2B8E15DD4EC7007E71BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A6B2B8C15DD4EC7007E71BA /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A6B2B7715DD4EC7007E71BA /* Protobyte001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Protobyte001.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A6B2B7B15DD4EC7007E71BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2A6B2B7E15DD4EC7007E71BA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2A6B2B8015DD4EC7007E71BA /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		2A6B2B8215DD4EC7007E71BA /* ResourcePath.hpp */ = {isa = PBXFileReference; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		2A6B2B8415DD4EC7007E71BA /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
+		2A6B2B8615DD4EC7007E71BA /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
+		2A6B2B8815DD4EC7007E71BA /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
+		2A6B2B8B15DD4EC7007E71BA /* Protobyte001-Info.plist */ = {isa = PBXFileReference; path = "Protobyte001-Info.plist"; sourceTree = "<group>"; };
+		2A6B2B8D15DD4EC7007E71BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A6B2B7415DD4EC7007E71BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A6B2B7C15DD4EC7007E71BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A6B2B6B15DD4EC7007E71BA = {
+			isa = PBXGroup;
+			children = (
+				2A6B2B7D15DD4EC7007E71BA /* Protobyte001 */,
+				2A6B2B7A15DD4EC7007E71BA /* Frameworks */,
+				2A6B2B7815DD4EC7007E71BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A6B2B7815DD4EC7007E71BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A6B2B7715DD4EC7007E71BA /* Protobyte001.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A6B2B7A15DD4EC7007E71BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A6B2B7B15DD4EC7007E71BA /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A6B2B7D15DD4EC7007E71BA /* Protobyte001 */ = {
+			isa = PBXGroup;
+			children = (
+				2A6B2B7E15DD4EC7007E71BA /* main.cpp */,
+				2A6B2B8015DD4EC7007E71BA /* ResourcePath.mm */,
+				2A6B2B8215DD4EC7007E71BA /* ResourcePath.hpp */,
+				2A6B2B8315DD4EC7007E71BA /* Resources */,
+				2A6B2B8A15DD4EC7007E71BA /* Supporting Files */,
+			);
+			path = Protobyte001;
+			sourceTree = "<group>";
+		};
+		2A6B2B8315DD4EC7007E71BA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A6B2B8415DD4EC7007E71BA /* sansation.ttf */,
+				2A6B2B8615DD4EC7007E71BA /* cute_image.jpg */,
+				2A6B2B8815DD4EC7007E71BA /* nice_music.ogg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A6B2B8A15DD4EC7007E71BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A6B2B8B15DD4EC7007E71BA /* Protobyte001-Info.plist */,
+				2A6B2B8C15DD4EC7007E71BA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A6B2B7615DD4EC7007E71BA /* Protobyte001 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A6B2B9115DD4EC7007E71BA /* Build configuration list for PBXNativeTarget "Protobyte001" */;
+			buildPhases = (
+				2A6B2B7215DD4EC7007E71BA /* ShellScript */,
+				2A6B2B7315DD4EC7007E71BA /* Sources */,
+				2A6B2B7415DD4EC7007E71BA /* Frameworks */,
+				2A6B2B7515DD4EC7007E71BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Protobyte001;
+			productName = Protobyte001;
+			productReference = 2A6B2B7715DD4EC7007E71BA /* Protobyte001.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A6B2B6D15DD4EC7007E71BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 2A6B2B7015DD4EC7007E71BA /* Build configuration list for PBXProject "Protobyte001" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A6B2B6B15DD4EC7007E71BA;
+			productRefGroup = 2A6B2B7815DD4EC7007E71BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A6B2B7615DD4EC7007E71BA /* Protobyte001 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A6B2B7515DD4EC7007E71BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A6B2B8515DD4EC7007E71BA /* sansation.ttf in Resources */,
+				2A6B2B8715DD4EC7007E71BA /* cute_image.jpg in Resources */,
+				2A6B2B8915DD4EC7007E71BA /* nice_music.ogg in Resources */,
+				2A6B2B8E15DD4EC7007E71BA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A6B2B7215DD4EC7007E71BA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required sfml dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# Are we building a project that uses framework or dylibs ?\nif [ $SFML_LINK_PREFIX = $SFML_LINK_FRAMEWORKS_PREFIX ]\nthen\n    frameworks=1\nelse\n    frameworks=0\nfi\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.app/Contents/Frameworks\n    \n    if [ -z $1 ]\n    then\n        echo \"no parameter! ERROR!\"\n        exit\n    else\n        # clean potentially old stuff\n        rm -f $dest/libsfml-$1.2.dylib\n        rm -f $dest/libsfml-$1-d.2.dylib\n        rm -fr $dest/sfml-$1.framework\n    \n        # copy SFML libraries\n        if [ $frameworks ]\n        then\n            ditto \"/Library/Frameworks/sfml-$1.framework\" \"$dest/sfml-$1.framework\"\n        elif [ $CONFIGURATION = \"Debug\" ]\n        then\n            ditto \"/usr/local/lib/libsfml-$1-d.2.dylib\" \"$dest/libsfml-$1-d.2.dylib\"\n        else\n            ditto \"/usr/local/lib/libsfml-$1.2.dylib\" \"$dest/libsfml-$1.2.dylib\"\n        fi\n        \n        if [ $1 = \"audio\" ]\n        then\n            # copy sndfile framework too\n            ditto \"/Library/Frameworks/sndfile.framework\" \"$dest/sndfile.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\t\t\t\t\t";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A6B2B7315DD4EC7007E71BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A6B2B7F15DD4EC7007E71BA /* main.cpp in Sources */,
+				2A6B2B8115DD4EC7007E71BA /* ResourcePath.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2A6B2B8C15DD4EC7007E71BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A6B2B8D15DD4EC7007E71BA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A6B2B8F15DD4EC7007E71BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(HEADER_SEARCH_PATHS)";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SFML_AUDIO = "$(SFML_LINK_PREFIX)sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX)sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "-d";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework ";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_FRAMEWORKS_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_FRAMEWORKS_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX)sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX)sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX)sfml-window$(SFML_LINK_SUFFIX)";
+			};
+			name = Debug;
+		};
+		2A6B2B9015DD4EC7007E71BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = "";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(HEADER_SEARCH_PATHS)";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SFML_AUDIO = "$(SFML_LINK_PREFIX)sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX)sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework ";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_FRAMEWORKS_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_FRAMEWORKS_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX)sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX)sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX)sfml-window$(SFML_LINK_SUFFIX)";
+			};
+			name = Release;
+		};
+		2A6B2B9215DD4EC7007E71BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "Protobyte001/Protobyte001-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2A6B2B9315DD4EC7007E71BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "Protobyte001/Protobyte001-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A6B2B7015DD4EC7007E71BA /* Build configuration list for PBXProject "Protobyte001" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A6B2B8F15DD4EC7007E71BA /* Debug */,
+				2A6B2B9015DD4EC7007E71BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A6B2B9115DD4EC7007E71BA /* Build configuration list for PBXNativeTarget "Protobyte001" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A6B2B9215DD4EC7007E71BA /* Debug */,
+				2A6B2B9315DD4EC7007E71BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A6B2B6D15DD4EC7007E71BA /* Project object */;
+}
