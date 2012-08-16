@@ -22,7 +22,7 @@
 #include "ProtoUtils.h"
 #include "Vector3df.h"
 #include "Dimension3d.h"
-#include "ImageIO.h"
+//#include "ImageIO.h"
 
 
 class Particle {
@@ -46,7 +46,7 @@ private:
     Vector3df initLoc;
     
     // for texture
-    ImageIO* imageIO;
+   // ImageIO* imageIO;
     //std::string textureName;
     std::string textureName;
     GLuint* texture;

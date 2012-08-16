@@ -96,13 +96,13 @@ void VerletSurface::init() {
         if (vecs[i].x<xMin) xMin=vecs[i].x;
         if (vecs[i].y<yMin) yMin=vecs[i].y;
         
-        textureScaleFactor.x =  1.0/fabs(xMin*2);
-        textureScaleFactor.y =  1.0/fabs(yMin*2);
+        textureScaleFactor.x =  1.0/abs(xMin*2);
+        textureScaleFactor.y =  1.0/abs(yMin*2);
        
        
         
         Vector3df v = vecs[i];
-        v += (Vector3df(fabs(xMin), fabs(yMin), 0));
+        v += (Vector3df(abs(xMin), abs(yMin), 0));
         v *= textureScaleFactor;
         
         texCoords.push_back(v);

@@ -23,13 +23,13 @@ Particle::Particle(Vector3df loc = Vector3df(0,0,0)){
 Particle::Particle(Vector3df loc, Dimension3d dim):
 loc(loc), dim(dim) {
     spd = Vector3df(0,0,0);
-    imageIO = NULL;
+    //imageIO = NULL;
     init();  
 }
 
 Particle::Particle(Vector3df loc, Dimension3d dim, Vector3df spd):
 loc(loc), dim(dim), spd(spd) {
-    imageIO = NULL;
+    //imageIO = NULL;
     init();   
 }
 
@@ -68,7 +68,7 @@ loc(loc), dim(dim), spd(spd), textureName(textureName), alpha(alpha){
 
 Particle::Particle(Vector3df loc, Dimension3d dim, Vector3df spd, GLuint* texture, int textW, int textH, float alpha):
 loc(loc), dim(dim), spd(spd), texture(texture), textW(textW), textH(textH), alpha(alpha){
-    imageIO = NULL;
+   // imageIO = NULL;
     init();
 }
 

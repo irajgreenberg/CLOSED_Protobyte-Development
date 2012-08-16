@@ -22,7 +22,7 @@
 #include "VerletStick.h"
 #include "Curve3d.h"
 #include "Spline3d.h"
-#include "ImageIO.h"
+//#include "ImageIO.h"
 #include "ProtoUtils.h"
 
 

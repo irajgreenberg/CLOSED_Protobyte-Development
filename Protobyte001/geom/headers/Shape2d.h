@@ -21,7 +21,7 @@
 // Vector2df loc, Dimension2d dim need to create these classes
 #include "Point2d.h"
 #include "Curve3d.h" // create Curve2d class
-#include "geomFunctions.h"
+//#include "geomFunctions.h"
 #include <vector>
 
 class Shape2d {
