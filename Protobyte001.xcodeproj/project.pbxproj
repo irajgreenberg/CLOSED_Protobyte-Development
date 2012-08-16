@@ -21,11 +21,11 @@
 		2A6B2B7B15DD4EC7007E71BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2A6B2B7E15DD4EC7007E71BA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		2A6B2B8015DD4EC7007E71BA /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
-		2A6B2B8215DD4EC7007E71BA /* ResourcePath.hpp */ = {isa = PBXFileReference; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		2A6B2B8215DD4EC7007E71BA /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
 		2A6B2B8415DD4EC7007E71BA /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
 		2A6B2B8615DD4EC7007E71BA /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
 		2A6B2B8815DD4EC7007E71BA /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
-		2A6B2B8B15DD4EC7007E71BA /* Protobyte001-Info.plist */ = {isa = PBXFileReference; path = "Protobyte001-Info.plist"; sourceTree = "<group>"; };
+		2A6B2B8B15DD4EC7007E71BA /* Protobyte001-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Protobyte001-Info.plist"; sourceTree = "<group>"; };
 		2A6B2B8D15DD4EC7007E71BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
