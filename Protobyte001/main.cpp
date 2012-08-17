@@ -27,7 +27,7 @@ int main (int argc, const char * argv[])
     	return EXIT_FAILURE;
 
     // Play the music
-    music.play();
+    //music.play();
         
 
     // Start the game loop

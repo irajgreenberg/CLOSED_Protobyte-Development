@@ -38,6 +38,8 @@
 		2AD3C12515DD543D00E92E45 /* Tuple2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C10515DD543D00E92E45 /* Tuple2d.cpp */; };
 		2AD3C12615DD543D00E92E45 /* Tuple2df.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C10615DD543D00E92E45 /* Tuple2df.cpp */; };
 		2AD3C12715DD543D00E92E45 /* Tuple3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C10715DD543D00E92E45 /* Tuple3d.cpp */; };
+		9F874FE515DDD4C800823D77 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F874FE415DDD4C800823D77 /* OpenGL.framework */; };
+		9F874FE815DDD4CE00823D77 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F874FE715DDD4CE00823D77 /* GLUT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,6 +102,8 @@
 		2AD3C10515DD543D00E92E45 /* Tuple2d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tuple2d.cpp; sourceTree = "<group>"; };
 		2AD3C10615DD543D00E92E45 /* Tuple2df.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tuple2df.cpp; sourceTree = "<group>"; };
 		2AD3C10715DD543D00E92E45 /* Tuple3d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tuple3d.cpp; sourceTree = "<group>"; };
+		9F874FE415DDD4C800823D77 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		9F874FE715DDD4CE00823D77 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F874FE815DDD4CE00823D77 /* GLUT.framework in Frameworks */,
+				9F874FE515DDD4C800823D77 /* OpenGL.framework in Frameworks */,
 				2A6B2B7C15DD4EC7007E71BA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -117,6 +123,8 @@
 		2A6B2B6B15DD4EC7007E71BA = {
 			isa = PBXGroup;
 			children = (
+				9F874FE715DDD4CE00823D77 /* GLUT.framework */,
+				9F874FE415DDD4C800823D77 /* OpenGL.framework */,
 				2A6B2B7D15DD4EC7007E71BA /* Protobyte001 */,
 				2A6B2B7A15DD4EC7007E71BA /* Frameworks */,
 				2A6B2B7815DD4EC7007E71BA /* Products */,
