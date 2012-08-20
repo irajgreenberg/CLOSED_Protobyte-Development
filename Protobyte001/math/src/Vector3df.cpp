@@ -11,21 +11,44 @@
 #include <math.h>
 
 
+/*****************************************************/
+/*                   Free Functions                  */
+/*****************************************************/
+Vector3df operator+(const Vector3df& lhs, const Vector3df& rhs)
+// postcondition: returns lhs += rhs
+{
+    return Vector3df(lhs) += rhs;
+}
+
+Vector3df operator-(const Vector3df& lhs, const Vector3df& rhs)
+// postcondition: returns lhs -= rhs
+{
+    return Vector3df(lhs) -= rhs;
+}
+
+Vector3df operator*(const Vector3df& lhs, const Vector3df& rhs)
+// postcondition: returns lhs *= rhs
+{
+    return Vector3df(lhs) *= rhs;
+}
+
+Vector3df operator/(const Vector3df& lhs, const Vector3df& rhs)
+// postcondition: returns lhs /= rhs
+{
+    return Vector3df(lhs) /= rhs;
+}
+/**************** End Free Functions *****************/
+
+
 // initialize static counter
 // keeps track of all the vectors created
 int Vector3df::totalVectorCount = 0;
 
-// constructor
-Vector3df::Vector3df():
-x(0), y(0), z(0) { // initialize fields to 0, 0, 0
-    //std::cout << "in Vector3df default constructor" << std::endl;
-    totalVectorCount++;
-}
 
 // constructor
 Vector3df::Vector3df(float x, float y, float z):
 x(x), y(y), z(z) {
-    //std::cout << "in Vector3df overloaded constructor 1" << std::endl;
+    // increment static vector count
     totalVectorCount++;
 }
 
@@ -37,32 +60,38 @@ bool Vector3df::operator==(const Vector3df& v) const {
     return false;
 }
 
+/*****************************************************/
+/*                   Overloaded Ops                  */
+/*****************************************************/
 Vector3df& Vector3df::operator+=(const Vector3df& v) {
-    if (this != &v) {
-        x += v.x;
-        y += v.y;
-        z += v.z;
-    }
+    x += v.x;
+    y += v.y;
+    z += v.z;
     return *this;
 }
 
 Vector3df& Vector3df::operator-=(const Vector3df& v) {
-    if (this != &v) {
-        x -= v.x;
-        y -= v.y;
-        z -= v.z;
-    }
+    x -= v.x;
+    y -= v.y;
+    z -= v.z;
     return *this;
 }
 
 Vector3df& Vector3df::operator*=(const Vector3df& v) {
-    if (this != &v) {
-        x *= v.x;
-        y *= v.y;
-        z *= v.z;
-    }
+    x *= v.x;
+    y *= v.y;
+    z *= v.z;
     return *this;
 }
+
+Vector3df& Vector3df::operator/=(const Vector3df& v) {
+    x /= v.x;
+    y /= v.y;
+    z /= v.z;
+    return *this;
+}
+/**************** End Overloaded Ops *****************/
+
 
 // overloaded << operator for outputting field values in objects
 std::ostream& operator<<(std::ostream& output, const Vector3df& vec) {
@@ -76,14 +105,23 @@ Vector3df::~Vector3df(){
 }
 
 // copy constructor
-/*Vector3df::Vector3df (const Vector3df& vec) {
+Vector3df::Vector3df (const Vector3df& vec) {
     x = vec.x;
     y = vec.y;
     z = vec.z;
-    //std::cout << "in Vector3df Copy Constuctor" << std::endl;
     totalVectorCount++;
-}*/
+}
 
+// assignment op
+Vector3df& Vector3df::operator=(const Vector3df& vec) {
+    if(*this == vec){
+        return *this;
+    }
+    x = vec.x;
+    y = vec.y;
+    z = vec.z;
+    return *this;
+}
 
 // reference parameter
 void Vector3df::add(const Vector3df& v){
@@ -91,7 +129,6 @@ void Vector3df::add(const Vector3df& v){
     y += v.y;
     z += v.z;
 }
-
 
 void Vector3df::inv(){
     mult(-1);
@@ -260,5 +297,6 @@ float Vector3df::getNormZ(){
 void Vector3df::setNormZ(float normZ){
     this->normZ = normZ;
 }
+
 
 

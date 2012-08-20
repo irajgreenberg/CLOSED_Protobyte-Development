@@ -32,24 +32,33 @@ public:
     
     static int totalVectorCount;
     
-    // constructors
-    Vector3df();
-    
-    Vector3df(float x, float y, float z);
+    // constructor
+    Vector3df(float x=0.0f, float y=0.0f, float z=0.0f);
     
     // destructor
     ~Vector3df();
     
     // copy constructor
-    //Vector3df (const Vector3df& vec);
+    Vector3df (const Vector3df& vec);
     
-    // overloaded operator
+    // assignment op
+     Vector3df& operator=(const Vector3df& vec);
+    
+    // overloaded ops
     bool operator==(const Vector3df &v) const;
     Vector3df& operator+=(const Vector3df& v);
     Vector3df& operator-=(const Vector3df& v);
     Vector3df& operator*=(const Vector3df& v);
+    Vector3df& operator/=(const Vector3df& v);
     
-    // basic functions
+    /* binary operators should be made as general NON-member functions
+    Vector3df operator+(const Vector3df& v);
+    Vector3df operator-(const Vector3df& v);
+    Vector3df operator*(const Vector3df& v);
+    Vector3df operator/(const Vector3df& v);
+     */
+    
+    // basic methods
     void add(const Vector3df& v);
     void inv();
     void sub(const Vector3df& v);
